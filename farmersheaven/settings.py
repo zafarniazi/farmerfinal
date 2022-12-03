@@ -14,8 +14,6 @@ SECRET_KEY = 'django-insecure-kmzoe!wb*vd35ki5mw5sc7rvq@*64_sxil4m+=$l0l))o1bvzb
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 ALLOWED_HOSTS = ['https://web-production-53d1.up.railway.app ']
-CSRF_TRUSTED_ORIGINS = ['https://web-production-53d1.up.railway.app']
-
 
 
 # Application definition
@@ -47,7 +45,7 @@ MIDDLEWARE = [
     'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
-    'django.middleware.csrf.CsrfViewMiddleware',
+    # 'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
@@ -56,6 +54,8 @@ MIDDLEWARE = [
 
 
 ]
+
+CSRF_TRUSTED_ORIGINS = ['https://web-production-53d1.up.railway.app']
 CORS_ORIGIN_ALLOW_ALL = True
 # CORS_ALLOWED_ORIGINS = [
 #     "http://farmerheaven.herokuapp.com",
