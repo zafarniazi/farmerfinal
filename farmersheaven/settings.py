@@ -55,7 +55,7 @@ MIDDLEWARE = [
 
 ]
 
-CSRF_TRUSTED_ORIGINS = ['https://web-production-53d1.up.railway.app']
+CSRF_TRUSTED_ORIGINS = ['https://web-production-2ad0.up.railway.app']
 CORS_ORIGIN_ALLOW_ALL = True
 # CORS_ALLOWED_ORIGINS = [
 #     "http://farmerheaven.herokuapp.com",
