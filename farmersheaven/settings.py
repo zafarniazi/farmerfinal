@@ -13,7 +13,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-kmzoe!wb*vd35ki5mw5sc7rvq@*64_sxil4m+=$l0l))o1bvzb'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-ALLOWED_HOSTS = ['https://web-production-53d1.up.railway.app ']
+ALLOWED_HOSTS = ['https://web-production-9b33.up.railway.app ']
 
 
 # Application definition
@@ -55,7 +55,7 @@ MIDDLEWARE = [
 
 ]
 
-CSRF_TRUSTED_ORIGINS = ['https://web-production-2ad0.up.railway.app']
+CSRF_TRUSTED_ORIGINS = ['https://web-production-9b33.up.railway.app']
 CORS_ORIGIN_ALLOW_ALL = True
 # CORS_ALLOWED_ORIGINS = [
 #     "http://farmerheaven.herokuapp.com",
